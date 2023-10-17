@@ -6,15 +6,25 @@ public class Aula001TiposPrimitivos {
         Tipo primitivos:
         int, double, float, char, byte, short, long, boolean
 */
-        int idade = 10;
-        long numeroGrande = 100000;
-        double salarioDouble = 2000;
-        float salarioFloat = 2500;
+/*
+        Casting:
+        Força a mudança do tipo de variável, podendo perder informações caso for realizado de um tipo diferente que não
+        comporta o valor de outro tipo:
+        Ex:
+        int idade = (int) 100000000000L;
+        Resultado = 1215752192
+
+*/
+
+        int idade = (int) 100000000000L;
+        long numeroGrande = (long) 100000.50;
+        double salarioDouble = 2000.00D;
+        float salarioFloat = (float) 2500.00;
         byte idadeByte = 10;
         short idadeShort = 10;
         boolean verdadeiro = true;
         boolean falso = false;
-        char caractere = 65;
+        char caractere = '\u0041';
 
         System.out.println("A idade é: " + idade + " anos.");
         System.out.println(numeroGrande);
