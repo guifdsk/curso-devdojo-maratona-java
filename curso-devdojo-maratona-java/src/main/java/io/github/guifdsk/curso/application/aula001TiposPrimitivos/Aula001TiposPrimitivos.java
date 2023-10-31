@@ -25,6 +25,8 @@ public class Aula001TiposPrimitivos {
         boolean falso = false;
         char caractere = '\u0041';
 
+        String nome = "Goku";
+
         System.out.println("A idade é: " + idade + " anos.");
         System.out.println(numeroGrande);
         System.out.println(salarioDouble);
@@ -34,5 +36,6 @@ public class Aula001TiposPrimitivos {
         System.out.println(verdadeiro);
         System.out.println(falso);
         System.out.println(caractere);
+        System.out.println("Oi, eu sou o " + nome);
     }
 }
