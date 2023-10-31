@@ -13,7 +13,6 @@ public class Aula001TiposPrimitivos {
         Ex:
         int idade = (int) 100000000000L;
         Resultado = 1215752192
-
 */
 
         int idade = (int) 100000000000L;
